@@ -1,0 +1,96 @@
+body{
+    background: linear-gradient(0deg, rgba(52,71,116,1) 0%, rgba(66,101,179,1) 100%);
+    color: #e6f0f8;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 20px;
+
+
+    
+}
+
+header{
+    position:relative;
+    left:350px;
+    padding: 20px;
+    display:flex;
+    background-color: #70a3d7;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:white
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+section{
+    padding: 20px;
+    width: fit-content;
+    border: white 2px solid;
+    
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+
+#menu_izq img{
+    position: relative;
+    bottom: 150px;
+    height:300px;
+ }
+
+ 
+.presentacion{
+    position: relative;
+    bottom: 150px;
+}
+
+.info{
+    position: relative;
+    bottom: 150px;
+}
+
+.info svg{
+    fill:red;
+    background-color: #fff;
+    width: 75px;
+    height: 75px;
+    border-radius: 20%;
+    
+}
+
+.info .boton{
+    display: flex;
+    flex-direction: column;
+    fill: green;
+}
+
+main{
+    border: white 2px solid;
+    position: relative;
+    left:330px;
+    bottom:688px;
+    max-width: fit-content;
+    max-height: fit-content;
+}
